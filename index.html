@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jaya Surya B V | Data Science Portfolio</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: "Segoe UI", sans-serif;
+        }
+
+        body {
+            background-color: #0f172a;
+            color: #e5e7eb;
+            line-height: 1.6;
+        }
+
+        header {
+            padding: 60px 20px;
+            text-align: center;
+            background: linear-gradient(135deg, #1e293b, #020617);
+        }
+
+        header h1 {
+            font-size: 2.8rem;
+            color: #38bdf8;
+        }
+
+        header p {
+            font-size: 1.1rem;
+            margin-top: 10px;
+            color: #cbd5f5;
+        }
+
+        .resume-btn {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 12px 24px;
+            background: #38bdf8;
+            color: #020617;
+            font-weight: bold;
+            border-radius: 30px;
+            text-decoration: none;
+            transition: 0.3s ease;
+        }
+
+        .resume-btn:hover {
+            background: #22d3ee;
+            transform: scale(1.05);
+        }
+
+        .container {
+            max-width: 1100px;
+            margin: auto;
+            padding: 40px 20px;
+        }
+
+        section {
+            margin-bottom: 50px;
+        }
+
+        h2 {
+            color: #38bdf8;
+            margin-bottom: 15px;
+            border-bottom: 2px solid #334155;
+            display: inline-block;
+            padding-bottom: 5px;
+        }
+
+        .about p {
+            font-size: 1.05rem;
+            color: #d1d5db;
+        }
+
+        .skills span {
+            display: inline-block;
+            background: #1e293b;
+            padding: 8px 14px;
+            margin: 6px;
+            border-radius: 20px;
+            font-size: 0.9rem;
+            border: 1px solid #334155;
+        }
+
+        .projects {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 20px;
+        }
+
+        .project-card {
+            background: #020617;
+            padding: 20px;
+            border-radius: 12px;
+            border: 1px solid #334155;
+            transition: transform 0.3s;
+        }
+
+        .project-card:hover {
+            transform: translateY(-6px);
+        }
+
+        .project-card h3 {
+            color: #38bdf8;
+            margin-bottom: 10px;
+        }
+
+        .project-card p {
+            font-size: 0.95rem;
+            color: #cbd5f5;
+            margin-bottom: 8px;
+        }
+
+        .project-card a {
+            display: inline-block;
+            margin-top: 10px;
+            color: #22d3ee;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .contact a {
+            display: inline-block;
+            margin: 10px 15px 0 0;
+            color: #38bdf8;
+            text-decoration: none;
+            font-size: 1.05rem;
+            font-weight: bold;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            background: #020617;
+            color: #94a3b8;
+            font-size: 0.9rem;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>Jaya Surya B V</h1>
+        <p>Data Science Graduate | Python | Data Analysis | Machine Learning</p>
+
+        <!-- Resume Download Button -->
+        <a href="JAYA_SURYA_BV_Resume.pdf" class="resume-btn" download>
+            📄 Download Resume
+        </a>
+    </header>
+
+    <div class="container">
+
+        <!-- About -->
+        <section class="about">
+            <h2>About Me</h2>
+            <p>
+                Motivated Data Science graduate with a strong foundation in Python, machine learning,
+                and data analysis. Passionate about transforming data into actionable insights and
+                solving real-world business problems.
+            </p>
+        </section>
+
+        <!-- Skills -->
+        <section class="skills">
+            <h2>Skills</h2><br>
+            <span>Python</span>
+            <span>SQL</span>
+            <span>Pandas</span>
+            <span>NumPy</span>
+            <span>Matplotlib</span>
+            <span>Seaborn</span>
+            <span>Machine Learning</span>
+            <span>EDA</span>
+            <span>Data Visualization</span>
+            <span>GitHub</span>
+        </section>
+
+        <!-- Projects -->
+        <section>
+            <h2>Projects</h2>
+            <div class="projects">
+
+                <div class="project-card">
+                    <h3>Airline Delay Analysis (2025)</h3>
+                    <p>Exploratory data analysis on airline delay datasets to uncover trends.</p>
+                    <p><strong>Tech:</strong> Python, Pandas, NumPy, Matplotlib, Seaborn</p>
+                    <a href="https://github.com/Jay-surya-7/Airline_Delay_Analysis_Python" target="_blank">
+                        View Project →
+                    </a>
+                </div>
+
+                <div class="project-card">
+                    <h3>Customer Churn Analysis</h3>
+                    <p>Analyzed customer data to identify churn factors and insights.</p>
+                    <p><strong>Tech:</strong> Python, Pandas</p>
+                    <a href="https://github.com/Jay-surya-7/Customer-Churn-Analysis" target="_blank">
+                        View Project →
+                    </a>
+                </div>
+
+                <div class="project-card">
+                    <h3>Library Management System (2024)</h3>
+                    <p>GUI-based library system with RFID-based issuing and access control.</p>
+                    <p><strong>Tech:</strong> Python, Tkinter, RFID</p>
+                </div>
+
+                <div class="project-card">
+                    <h3>Vocal Scriber (2024)</h3>
+                    <p>Speech-to-text tool supporting Tamil & English for accessibility.</p>
+                    <p><strong>Tech:</strong> Python, SpeechRecognition, pyttsx3, PyAutoGUI</p>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Contact -->
+        <section class="contact">
+            <h2>Contact</h2><br>
+            <a href="https://www.linkedin.com/in/jaya-surya-balaji" target="_blank">LinkedIn</a>
+            <a href="https://github.com/Jay-surya-7" target="_blank">GitHub</a>
+            <a href="mailto:jayasuryabalaji.4@gmail.com">Email</a>
+        </section>
+
+    </div>
+
+    <footer>
+        © 2026 Jaya Surya B V | Portfolio
+    </footer>
+
+</body>
+
+</html>
